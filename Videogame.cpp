@@ -21,8 +21,8 @@ void Videogame::setPublisher(char* pub){
   publisher = new char[30];
   strcpy(publisher, pub);
 }
-void virtual Videogame::print(char* title, int date, char* pub, float rate){
-  cout << "Title: " << title << ", Year: " << date << ", Publisher: " << pub << ", Rating: " << rate << endl;
+void Videogame::print(){
+  cout << "Title: " << title << ", Year: " << year << ", Publisher: " << publisher << ", Rating: " << rating << endl;
 }
 
 

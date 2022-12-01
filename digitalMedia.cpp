@@ -21,7 +21,7 @@ int digitalMedia::getYear(){
 void digitalMedia::setYear(int date){
   year = date;
 }
-virtual void digitalMedia::print(){
+void digitalMedia::print(){
   cout << "Error- no assigned media type" << endl;
 }
 

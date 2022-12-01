@@ -28,6 +28,6 @@ void Music::setPublisher(char* name){
   publisher = new char[30];
   strcpy(publisher, name);
 }
-virtual void Music::print(char* title, int date, char* pub, char* name, int time){
-  cout << "Title: " << title << ", Year: " << date << ", Publisher: " << pub << ", Artist: " << name << ", Duration: " << time << endl;
+void Music::print(){
+  cout << "Title: " << title << ", Year: " << year << ", Publisher: " << publisher << ", Artist: " << artist << ", Duration: " << duration << " seconds" << endl;
 }

@@ -27,3 +27,6 @@ void Movie::setDuration(int time){
 int Movie::getDuration(){
   return duration;
 }
+void Movie::print(){
+  cout << "Title: " << title << ", Year: " << year << ", Director: " << director << ", Duration: " << duration << " minutes, Rating: " << rating << endl;
+}
