@@ -1,3 +1,9 @@
+/*
+ * This project creates a database to store media types wit different values.
+ * Author: Paige Wiley
+ * Date: 12-5-2022
+ */
+
 #include <iostream>
 #include <vector>
 #include "digitalMedia.h"
