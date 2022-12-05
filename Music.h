@@ -18,5 +18,5 @@ class Music: public digitalMedia{
   void setDuration(int time);
   void setArtist(char*);
   void setPublisher(char*);
-  virtual void print(char*, int date, char*, char*, int time);
+  virtual void print();
 };

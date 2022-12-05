@@ -18,4 +18,5 @@ class Movie: public digitalMedia{
   char* getDirector();
   int getDuration();
   void setDuration(int time);
+  virtual void print(); 
 };
